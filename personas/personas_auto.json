@@ -6,22 +6,22 @@
       "description": "A person seeking to manage their mental health and mood through self-tracking and insights.",
       "derived_from_group": "A1",
       "goals": [
-        "Understand and manage my emotions",
-        "Track my mood and feelings",
-        "Get helpful insights and advice"
+        "Understand and track my daily moods and feelings",
+        "Find helpful insights and resources to manage my mental health",
+        "Get support and guidance for anxiety, depression, or stress"
       ],
       "pain_points": [
-        "Limited free features",
-        "Repetitive questions",
-        "Financial constraints for premium features"
+        "Limited free features and locked content",
+        "Repetitive questions and limited customization options",
+        "Financial constraints for accessing premium features or therapy"
       ],
       "context": [
-        "Daily life",
-        "Mental health struggles"
+        "Daily life, managing stress and emotions",
+        "Seeking mental health support and resources"
       ],
       "constraints": [
-        "May not have financial resources for premium features",
-        "May be struggling with mental health issues"
+        "Limited budget for mental health services or premium app features",
+        "Seeking free or low-cost resources for mental health support"
       ],
       "evidence_reviews": [
         "827a274a-03d1-4c43-bcf7-683b7227a74a",
@@ -40,15 +40,16 @@
         "Find a helpful resource for mental health"
       ],
       "pain_points": [
-        "Difficulty finding an effective mental health app",
-        "Limited exploration of emotions through app questions"
+        "Limited exploration of emotions",
+        "One-sided courses"
       ],
       "context": [
         "Daily life",
-        "Mental health management"
+        "Therapy sessions"
       ],
       "constraints": [
-        "Seeking a simple, user-friendly app"
+        "Seeking a good starting point for mental health",
+        "Values free content"
       ],
       "evidence_reviews": [
         "14fdc352-1902-4f3b-8997-41d1983582b5",
@@ -63,19 +64,21 @@
       "derived_from_group": "A3",
       "goals": [
         "Track my mood over time",
-        "Understand my emotions",
-        "Reflect on my mental state"
+        "Understand my emotional patterns",
+        "Reflect on my daily emotions"
       ],
       "pain_points": [
         "Difficulty understanding my emotions",
-        "Trouble keeping track of my mood"
+        "Trouble keeping track of my mood",
+        "Wanting to reflect on my emotional state"
       ],
       "context": [
         "Daily life",
-        "Personal mental health"
+        "Personal emotional management"
       ],
       "constraints": [
-        "Needs to be easy to use"
+        "Needs to be easy to use",
+        "Prefers a simple and manageable way to track emotions"
       ],
       "evidence_reviews": [
         "c67e2745-b74b-4993-b542-ceaecd5caf78",
@@ -130,8 +133,7 @@
         "Mental health struggles"
       ],
       "constraints": [
-        "Seeking a simple and easy-to-use app",
-        "Looking for a supportive tool"
+        "Seeking a simple and easy-to-use solution"
       ],
       "evidence_reviews": [
         "2b82cf29-45bf-4abb-848c-1273e3fed223",

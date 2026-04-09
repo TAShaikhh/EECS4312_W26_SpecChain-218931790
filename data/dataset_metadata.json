@@ -1,0 +1,47 @@
+{
+  "app_name": "MindDoc: Mental Health Support",
+  "app_id": "de.moodpath.android",
+  "store_url": "https://play.google.com/store/apps/details?id=de.moodpath.android&hl=en_CA&pli=1",
+  "collection_method": {
+    "source": "Google Play Store",
+    "tool": "google-play-scraper",
+    "sort": "NEWEST",
+    "language": "en",
+    "country": "ca",
+    "max_reviews_requested": 5000,
+    "reviews_available_from_scraper": 8127,
+    "reviews_extracted_raw": 5000,
+    "collected_at_utc": "2026-04-09T05:32:02.617381+00:00",
+    "collection_note": "The scraper exposed 8127 reviews for the selected language and country settings. The raw dataset was capped at 5000 reviews to stay within the assignment range of 1000 to 5000 reviews."
+  },
+  "app_store_metadata": {
+    "developer": "MindDoc Health GmbH",
+    "installs": "1,000,000+",
+    "ratings": 40052,
+    "reviews_field_from_store": 587,
+    "updated": 1763627864,
+    "version": "4.18.30"
+  },
+  "dataset_size": {
+    "raw_reviews": 5000,
+    "cleaned_reviews": 4278
+  },
+  "cleaning_decisions": {
+    "duplicates_removed_using": "case-insensitive normalized original review text",
+    "empty_entries_removed": true,
+    "extremely_short_threshold_tokens": 3,
+    "punctuation_removed": true,
+    "special_characters_removed": true,
+    "emojis_removed": true,
+    "numbers_converted_to_text": true,
+    "extra_whitespace_removed": true,
+    "lowercased": true,
+    "stop_words_removed": true,
+    "lemmatized": true,
+    "removal_counts": {
+      "duplicates_removed": 241,
+      "empty_removed": 19,
+      "short_removed": 462
+    }
+  }
+}

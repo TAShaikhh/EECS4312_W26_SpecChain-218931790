@@ -3,114 +3,107 @@
     {
       "test_id": "AT1",
       "requirement_id": "AR1",
-      "scenario": "User accesses free version of MindDoc",
+      "scenario": "Free access to basic mood and feeling tracking features",
       "steps": [
         "Launch the MindDoc application",
-        "Verify the user is presented with an option to use the free version"
+        "Register for a Mental Health Support User account",
+        "Navigate to the mood and feeling tracking features"
       ],
-      "expected_result": "The user can access the free version without being prompted for payment information"
+      "expected_result": "The basic mood and feeling tracking features are accessible without any restrictions or prompts for payment"
     },
     {
       "test_id": "AT2",
       "requirement_id": "AR2",
-      "scenario": "User provides initial information",
+      "scenario": "List of free or low-cost mental health resources",
       "steps": [
-        "Launch the MindDoc application",
-        "Complete the initial user information survey",
-        "Verify that the system does not ask repetitive questions"
+        "Log in to the MindDoc application as a Mental Health Support User",
+        "Navigate to the resources section"
       ],
-      "expected_result": "The system minimizes repetitive questions when gathering user information"
+      "expected_result": "A list of free or low-cost mental health resources is displayed"
     },
     {
       "test_id": "AT3",
       "requirement_id": "AR3",
-      "scenario": "User tracks emotions over time",
+      "scenario": "Track emotions and mental state over time",
       "steps": [
-        "Launch the MindDoc application",
-        "Record the user's current emotions",
-        "Return to the emotions tracking section after some time",
-        "Verify that previous emotions records are displayed"
+        "Log in to the MindDoc application as a user",
+        "Navigate to the emotion tracking feature",
+        "Record emotions and mental state for a given day"
       ],
-      "expected_result": "The user can view their tracked emotions over time"
+      "expected_result": "The recorded emotions and mental state are stored and can be viewed over time"
     },
     {
       "test_id": "AT4",
       "requirement_id": "AR4",
-      "scenario": "User views weekly progress",
+      "scenario": "Weekly progress insights",
       "steps": [
-        "Launch the MindDoc application",
-        "Navigate to the insights or progress section",
-        "Verify that weekly progress information is displayed"
+        "Log in to the MindDoc application as a user",
+        "Navigate to the insights or progress section"
       ],
-      "expected_result": "The user can view insights into their weekly progress"
+      "expected_result": "The system provides insights into the user's weekly progress"
     },
     {
       "test_id": "AT5",
       "requirement_id": "AR5",
-      "scenario": "MoodMonitor records mood at multiple points",
+      "scenario": "Daily mood recording",
       "steps": [
-        "Launch the MindDoc application",
-        "Record the user's current mood",
-        "Return to the mood tracking section after some time",
-        "Record the user's mood again"
+        "Log in to the MindDoc application as a MoodMonitor",
+        "Navigate to the mood recording feature",
+        "Record mood for a given day"
       ],
-      "expected_result": "The MoodMonitor can record their mood at multiple points in time"
+      "expected_result": "The recorded mood is stored and can be viewed later"
     },
     {
       "test_id": "AT6",
       "requirement_id": "AR6",
-      "scenario": "MoodMonitor views mood over time",
+      "scenario": "View of mood entries over time",
       "steps": [
-        "Launch the MindDoc application",
-        "Navigate to the mood tracking section",
-        "Verify that previous mood records are displayed"
+        "Log in to the MindDoc application as a MoodMonitor",
+        "Navigate to the mood entries section"
       ],
-      "expected_result": "The MoodMonitor can view their mood over time"
+      "expected_result": "A view of the mood entries over time is displayed"
     },
     {
       "test_id": "AT7",
       "requirement_id": "AR7",
-      "scenario": "Emiliana records and reflects on emotions",
+      "scenario": "Access to emotional support resources library",
       "steps": [
-        "Launch the MindDoc application",
-        "Record Emiliana's current emotions",
-        "Reflect on the recorded emotions"
+        "Log in to the MindDoc application as Emiliana",
+        "Navigate to the emotional support resources library"
       ],
-      "expected_result": "Emiliana can record and reflect on her emotions"
+      "expected_result": "The library of emotional support resources is accessible"
     },
     {
       "test_id": "AT8",
       "requirement_id": "AR8",
-      "scenario": "Emiliana receives emotional support content",
+      "scenario": "Record and reflect on emotions",
       "steps": [
-        "Launch the MindDoc application",
-        "Navigate to the support or resources section",
-        "Verify that emotional support content is available"
+        "Log in to the MindDoc application as Emiliana",
+        "Navigate to the emotion recording feature",
+        "Record emotions and reflect on them"
       ],
-      "expected_result": "Emiliana can access emotional support content"
+      "expected_result": "The recorded emotions can be reflected on and viewed later"
     },
     {
       "test_id": "AT9",
       "requirement_id": "AR9",
-      "scenario": "User tracks mental health status",
+      "scenario": "Daily mental health status logging",
       "steps": [
-        "Launch the MindDoc application",
-        "Record the user's current mental health status",
-        "Return to the mental health tracking section after some time",
-        "Verify that previous mental health records are displayed"
+        "Log in to the MindDoc application as a Mental Health Tracking and Support User",
+        "Navigate to the mental health status logging feature",
+        "Log mental health status for a given day"
       ],
-      "expected_result": "The user can track their mental health status over time"
+      "expected_result": "The logged mental health status is stored and can be viewed later"
     },
     {
       "test_id": "AT10",
       "requirement_id": "AR10",
-      "scenario": "User accesses mental health resources",
+      "scenario": "List of mental health support resources",
       "steps": [
-        "Launch the MindDoc application",
-        "Navigate to the resources or support section",
-        "Verify that mental health resources are available"
+        "Log in to the MindDoc application as a Mental Health Tracking and Support User",
+        "Navigate to the resources section"
       ],
-      "expected_result": "The user can access resources for mental health support"
+      "expected_result": "A list of resources for mental health support is displayed"
     }
   ]
 }
