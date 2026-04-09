@@ -2,15 +2,114 @@
   "tests": [
     {
       "test_id": "T_hybrid_1",
-      "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "requirement_id": "HR1",
+      "scenario": "Show plan status on a locked feature before checkout",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Sign in as a non-premium user.",
+        "Open a screen that contains at least one locked feature.",
+        "Observe the locked feature before selecting it."
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The feature is identified as free or premium before the user starts checkout."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "HR2",
+      "scenario": "Display subscription details before purchase confirmation",
+      "steps": [
+        "Open the premium upgrade flow.",
+        "Select one subscription option.",
+        "View the purchase summary screen."
+      ],
+      "expected_result": "The summary screen shows the price, billing period, renewal condition, and cancellation channel before the user confirms purchase."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "HR3",
+      "scenario": "Save one reminder time for each check-in period",
+      "steps": [
+        "Open reminder settings.",
+        "Set reminder times for morning, afternoon, and evening.",
+        "Save the settings."
+      ],
+      "expected_result": "The application stores and displays one saved reminder time for each of the three check-in periods."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "HR4",
+      "scenario": "Submit a missed check-in under the intended period",
+      "steps": [
+        "Miss one scheduled check-in period.",
+        "Open the app after the reminder window closes.",
+        "Select the missed period and submit answers."
+      ],
+      "expected_result": "The application accepts the missed check-in and stores it under the selected period."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "HR5",
+      "scenario": "Save multiple mood entries from the same day with distinct times",
+      "steps": [
+        "Open the mood logging feature.",
+        "Create one mood entry and save it.",
+        "Create a second mood entry later the same day and save it.",
+        "Open the saved entries."
+      ],
+      "expected_result": "Both saved entries are present and each entry shows its own recorded time."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "HR6",
+      "scenario": "Display mood and reflection history in chronological order",
+      "steps": [
+        "Save several mood entries and reflections on different dates.",
+        "Open the history view.",
+        "Review the order of the displayed entries."
+      ],
+      "expected_result": "The application displays the saved mood entries and reflections in chronological order."
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "HR7",
+      "scenario": "Save a written reflection with a mood entry",
+      "steps": [
+        "Open the mood entry screen.",
+        "Select a mood and enter written reflection text.",
+        "Save the entry."
+      ],
+      "expected_result": "The saved mood entry includes the written reflection text."
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "HR8",
+      "scenario": "Show insight or exercise content after check-in submission",
+      "steps": [
+        "Complete a check-in by recording current feelings.",
+        "Submit the check-in.",
+        "Observe the content shown after submission."
+      ],
+      "expected_result": "The application shows at least one related insight, reading, or exercise item after the check-in is submitted."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "HR9",
+      "scenario": "Generate a progress summary for a tracked period",
+      "steps": [
+        "Save mood entries across a tracked period.",
+        "Open the summary or report generation feature.",
+        "Generate a summary for that period."
+      ],
+      "expected_result": "The generated summary includes the mood patterns recorded during the selected period."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "HR10",
+      "scenario": "Access mental health guidance resources in-app",
+      "steps": [
+        "Open the application's guidance or support area.",
+        "Wait for the screen to load.",
+        "Review the content shown on the screen."
+      ],
+      "expected_result": "The application displays available mental health guidance resources."
     }
   ]
 }

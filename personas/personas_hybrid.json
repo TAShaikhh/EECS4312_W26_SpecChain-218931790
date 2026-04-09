@@ -1,31 +1,154 @@
 {
   "personas": [
     {
-      "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
-      "derived_from_group": "H1",
+      "id": "HP1",
+      "name": "Budget-Conscious Support Seeker",
+      "description": "A user who wants mental health support tools but needs clear premium value before paying for access.",
+      "derived_from_group": "A1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Continue mood tracking without unexpected costs",
+        "Understand which features are free and which require premium",
+        "Pay only when premium benefits are clear"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Core features feel locked after a short free experience",
+        "Subscription value is unclear before purchase",
+        "Paid upgrades can feel risky when money is limited"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Trying the app for self-help or early therapy support",
+        "Comparing MindDoc with lower-cost or free alternatives"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Cannot absorb unexpected subscription charges",
+        "Needs transparent premium information before purchase"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "4cf4ff8a-3aec-4219-ba79-5cc645cc1b15",
+        "a360c212-f023-438c-991b-a3f28f3dd7ba",
+        "affef279-7511-46e8-b4e4-8f9cc6da0a2b"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Refined the automated persona by replacing generic mental-health language with grounded affordability and paywall concerns from the revised review group."
+    },
+    {
+      "id": "HP2",
+      "name": "Structured Check-In User",
+      "description": "A user who depends on reminders and routine-based check-ins to maintain a consistent mood-tracking habit.",
+      "derived_from_group": "A2",
+      "goals": [
+        "Receive reminders at workable times",
+        "Complete morning, afternoon, and evening check-ins consistently",
+        "Recover missed check-ins without losing reflections"
+      ],
+      "pain_points": [
+        "Notifications are missing, too frequent, or easy to miss",
+        "Fixed check-in timing does not fit the user's schedule",
+        "Entries can be lost when a time window closes"
+      ],
+      "context": [
+        "Balancing the app with work, school, or irregular routines",
+        "Using short check-ins instead of long journaling sessions"
+      ],
+      "constraints": [
+        "Reminder times must fit the user's routine",
+        "Missed check-ins should not discard the user's input"
+      ],
+      "evidence_reviews": [
+        "4d818c25-71e6-49f1-8a43-1c7cfd90e226",
+        "8ed59960-bd0f-4d5f-b05b-fb11e2934a77",
+        "b27e65a7-c21c-45a9-962d-5023ce58cc1f"
+      ],
+      "notes": "Refined the automated persona by grounding it in reminder timing, notification reliability, and flexible check-in behavior rather than broad positive tracking language."
+    },
+    {
+      "id": "HP3",
+      "name": "Reflective Mood Tracker",
+      "description": "A user who records moods frequently and wants a clear history of entries to reflect on emotional patterns.",
+      "derived_from_group": "A3",
+      "goals": [
+        "Record moods across the day",
+        "Review mood history over time",
+        "Reflect on recurring emotional patterns"
+      ],
+      "pain_points": [
+        "It is hard to maintain a consistent mood log without app support",
+        "Past entries can be difficult to review in one place",
+        "Tracking feels incomplete when mood history is hard to interpret"
+      ],
+      "context": [
+        "Logging moods throughout daily life",
+        "Using the app as a diary-like reflection tool"
+      ],
+      "constraints": [
+        "Entries need to be stored with usable history",
+        "The history view must support reflection on past moods"
+      ],
+      "evidence_reviews": [
+        "6845c4de-e79c-4502-a20c-1ee0489bbb7e",
+        "9f647e59-599a-4a00-a893-7a037aaea27b",
+        "8a3b1135-3647-489a-93dd-dfd7ed97932c"
+      ],
+      "notes": "Refined the automated persona by focusing on diary-like mood logging, entry history, and reflection instead of unsupported report-sharing behavior."
+    },
+    {
+      "id": "HP4",
+      "name": "Emotional Reflection User",
+      "description": "A user who uses the app to put feelings into words and values emotionally supportive reflection content.",
+      "derived_from_group": "A4",
+      "goals": [
+        "Put feelings into words",
+        "Feel understood during check-ins",
+        "Use supportive exercises, insights, or readings to reflect"
+      ],
+      "pain_points": [
+        "It can be difficult to describe emotions clearly",
+        "Emotional reflection feels less useful when support content is vague",
+        "The user wants check-ins to feel personally meaningful"
+      ],
+      "context": [
+        "Using the app during stressful or emotional periods",
+        "Returning to readings, exercises, and check-ins for self-reflection"
+      ],
+      "constraints": [
+        "The app must support written emotional reflection",
+        "Support content must be available after the user records feelings"
+      ],
+      "evidence_reviews": [
+        "d2721057-fa68-4a14-9a53-9f87fecb7959",
+        "830d10be-1539-4315-8719-687c2b40f46c",
+        "a31ae32c-34f1-4859-830a-910ec529351d"
+      ],
+      "notes": "Refined the automated persona by grounding it in emotional reflection, feeling understood, and supportive insight content instead of unsupported privacy and continuity assumptions."
+    },
+    {
+      "id": "HP5",
+      "name": "Therapy-Support User",
+      "description": "A user who uses MindDoc to understand patterns, review mental-health summaries, and support conversations with professional care.",
+      "derived_from_group": "A5",
+      "goals": [
+        "Review mental-health patterns over time",
+        "Access reports or summaries that support self-understanding",
+        "Use app resources or guidance alongside therapy or self-help"
+      ],
+      "pain_points": [
+        "Reports and insights can feel too broad or too expensive to access",
+        "Guidance can become less useful when tied too heavily to paid services",
+        "Mental-health resources are harder to use when they are not clearly connected to tracked patterns"
+      ],
+      "context": [
+        "Using the app for ongoing self-monitoring across weeks",
+        "Bringing app-generated information into therapy or doctor discussions"
+      ],
+      "constraints": [
+        "Progress summaries must be understandable outside the moment of check-in",
+        "Support resources must remain available without requiring outside promotional services"
+      ],
+      "evidence_reviews": [
+        "11eaf701-f192-4fe1-b934-82fc5aae67d1",
+        "2830f36f-abe9-4e2c-9b61-35e646925641",
+        "08167aa6-4a60-4ff4-ab9d-4c7a997904fb"
+      ],
+      "notes": "Refined the automated persona by grounding it in reports, mental-health summaries, resources, and support for therapy conversations instead of expressive-label customization."
     }
   ]
 }

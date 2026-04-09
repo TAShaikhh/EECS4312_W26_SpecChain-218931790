@@ -1,13 +1,134 @@
-{  "groups": [
+{
+  "groups": [
     {
-      "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "group_id": "A1",
+      "theme": "Cost-sensitive users blocked by paywalls and unclear premium value",
+      "review_ids": [
+        "c61692d1-a80d-49e1-b541-8b37b2d3f7aa",
+        "6f006dd6-ee8c-44db-b8c8-2b5ad3570d1c",
+        "7af7329a-d6ad-4ccc-aa83-689da8e7eda3",
+        "a360c212-f023-438c-991b-a3f28f3dd7ba",
+        "a01eb69d-877f-4ec3-8ada-e94608e0f2fd",
+        "81c6e690-0ce4-4d0f-acf6-e2678939e1aa",
+        "c7058604-2d2a-4a5a-96b9-59ef01e8b946",
+        "5ffe111a-651f-4947-abd1-5a5e833fd3b2",
+        "f1c683f8-e041-444a-a0de-03c9c64e352f",
+        "9e67810a-0f04-455e-80e3-ebc69baf39d5",
+        "afc24601-34a5-42cd-8695-f7073c2003f2",
+        "abe48d35-6cad-40f8-b5d9-a176ee371a4e",
+        "127697e6-f034-4457-9faf-291c590672d2",
+        "f7f92b4a-fa1c-406e-a550-7ffad9f8b678",
+        "fad46f60-a4fe-45ed-8e73-515e505a9cf5"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "Puts results behind a paywall after using for 14 days, thus making it useless",
+        "I wish there were more free things on this app such as the exercises, and reading material, bc I found it to be very helpful yet I don't have the $ to pay anything."
+      ],
+      "notes": "Refined automated group A1 by keeping only A1 reviews about paywalls, premium access, affordability, and free-versus-paid value. Removed unrelated praise, login issues, and general support comments."
+    },
+    {
+      "group_id": "A2",
+      "theme": "Routine-based users who depend on reminders and flexible check-in timing",
+      "review_ids": [
+        "4d818c25-71e6-49f1-8a43-1c7cfd90e226",
+        "5eb82c4a-34d9-4ee6-bb48-2bc98f5dcc20",
+        "e43cabdd-bfdf-412d-a5b5-c9bcc761aab2",
+        "5020f548-7573-4a5a-9449-5913ac08b5e3",
+        "36e0167b-6774-4bc1-8705-58458a707ab1",
+        "69ceec42-3bfa-4d1b-a2a4-903c275b746c",
+        "e60d4e5f-6da4-4eac-bb34-99fbe43618cd",
+        "20e0ded9-7873-4d3b-814b-18aa9acd577d",
+        "89f06fea-60e3-4660-9476-b942cf70901a",
+        "64bf0189-f6d1-4340-9931-85332fda93f7",
+        "67d8879b-2a97-47de-98ef-fbe5c1300342",
+        "401500c4-3260-44c6-ae8d-862ebd0348ad",
+        "ff318aa5-3144-4e40-bcaa-cc8470a1a6f9",
+        "1991cc49-036e-4a60-a23b-4970c8481371",
+        "2232f5b0-5d1f-4b67-b84c-dcda3d1edd24"
+      ],
+      "example_reviews": [
+        "not getting notifications to answer the questions",
+        "Overall I like this app. It has helped me a bit to understand what I'm feeling. However the notification to write down how I feel and answer the questions rarely comes."
+      ],
+      "notes": "Refined automated group A2 by keeping A2 reviews about reminders, question cadence, repeated prompts, and check-in routine fit. Removed unrelated subscription complaints and generic praise."
+    },
+    {
+      "group_id": "A3",
+      "theme": "Frequent mood trackers who want clear history and reflective logging",
+      "review_ids": [
+        "6845c4de-e79c-4502-a20c-1ee0489bbb7e",
+        "e57fd9ce-d1b7-4829-8e28-ad2b3566f789",
+        "399f320b-6fac-444a-8d0a-e9688d2ef8d0",
+        "14c39003-c870-4a30-b49d-c2c519b76528",
+        "b9d4f34b-1a64-4cea-9f54-094e1f06c359",
+        "333597f6-cdf1-42f3-96fa-dfbc1f555478",
+        "9f647e59-599a-4a00-a893-7a037aaea27b",
+        "ae62ef52-539c-4d86-a245-b68342f19a73",
+        "64479bef-a5b0-4542-86dc-bb24091543c2",
+        "e37c988e-be96-43ed-8bd2-8c4bdc547dcf",
+        "02b6c5e6-5155-49a2-a23e-153ee3da2168",
+        "57c74e3c-5c2c-4452-8f9d-11bcc19a2f9e",
+        "29315110-d073-4682-8ed4-24c94f9e4e5d",
+        "9a1ec046-d663-437f-86f3-656abb3e108e",
+        "8a3b1135-3647-489a-93dd-dfd7ed97932c"
+      ],
+      "example_reviews": [
+        "I've been using this app for about 5 weeks and this is the first time I've successfully kept up with something like this. It's been very helpful to track my mood and I like that I can go back and read my entries.",
+        "Amazing app! I love to keep track of my feelings with the daily check ins, the graphs, and the stats."
+      ],
+      "notes": "Refined automated group A3 by keeping A3 reviews centered on mood logging, journaling, history, and pattern tracking. Removed reviews whose main point was pricing or reminder complaints."
+    },
+    {
+      "group_id": "A4",
+      "theme": "Users who value emotional reflection, validation, and supportive insights",
+      "review_ids": [
+        "bbb31449-236a-4773-87be-97b1b0c64a8d",
+        "6739e9de-62a5-4274-8974-d7fa6b3fa386",
+        "d2721057-fa68-4a14-9a53-9f87fecb7959",
+        "91e7f053-c7b0-41c0-9ad2-8066d73952f6",
+        "eb7ff1df-e06d-4d5c-8544-d54d4434c5e6",
+        "2b16a1b8-a289-42cc-bfc8-8da3df39b353",
+        "4bf2111c-c99a-4427-9b78-932259df6b19",
+        "830d10be-1539-4315-8719-687c2b40f46c",
+        "a31ae32c-34f1-4859-830a-910ec529351d",
+        "4a1838f1-b3b9-40c3-8305-4141bcfa5f61",
+        "80a14d84-fd0a-4e93-a558-b69a232874e0",
+        "4a3abb18-4c6f-4ce8-a81b-8d9c03d5deb8",
+        "c7c0695e-ed89-4257-a9e8-de9afb367ea8",
+        "65c4699e-e634-478a-b585-594ad741417e",
+        "ffff0c98-0b31-46a6-a362-3db4da49a196"
+      ],
+      "example_reviews": [
+        "This app has really helped put into words how I am feeling. The periodic check ins throughout the day have become something I look forward to.",
+        "This app was like a diary, it tracks what I feel. I feel more validated when I write my feelings here."
+      ],
+      "notes": "Refined automated group A4 by keeping A4 reviews about emotional reflection, feeling understood, helpful insights, and feeling cared for. Removed unrelated pricing and notification complaints."
+    },
+    {
+      "group_id": "A5",
+      "theme": "Users who rely on reports, resources, and professional-support guidance",
+      "review_ids": [
+        "4cf4ff8a-3aec-4219-ba79-5cc645cc1b15",
+        "11eaf701-f192-4fe1-b934-82fc5aae67d1",
+        "e45752e5-ba84-41b6-be18-d6a920a2f523",
+        "b7e23fb5-2b6e-4cf8-bd4c-0ec67b273a1a",
+        "1f3ecfee-8691-45d2-9425-7341779b6d30",
+        "52dbd779-e671-4287-a269-2d2c435112b5",
+        "affef279-7511-46e8-b4e4-8f9cc6da0a2b",
+        "ac523545-bdc5-4534-a6eb-ab964539907e",
+        "72f005a8-539c-4778-a1ca-d0be77d57b73",
+        "fa1bb6f0-2a44-48e2-9424-7363ea83ca9e",
+        "42a0aa6b-51b1-4a7e-a255-abfe0e656dc8",
+        "08167aa6-4a60-4ff4-ab9d-4c7a997904fb",
+        "4b1a73b1-267e-464e-884b-59e36ab48529",
+        "2830f36f-abe9-4e2c-9b61-35e646925641",
+        "b690e60a-681f-4ff7-8385-9c6caa788e26"
+      ],
+      "example_reviews": [
+        "I've been using this app since 2018. You answer a few questions 3 times per day for 2 weeks, and at the end it gives you a printable report. It's been very helpful to track my emotional state and report to my mental health team.",
+        "This app helped me understand my symptoms and patterns, making it easier to navigate my mental health day to day. I used the notes from the app to guide discussions, and my doctor even said it made working with me easier."
+      ],
+      "notes": "Refined automated group A5 by keeping A5 reviews about reports, mental-health summaries, support resources, and app use alongside professional care. Removed broad praise that did not mention reporting or guidance value."
     }
   ]
 }
