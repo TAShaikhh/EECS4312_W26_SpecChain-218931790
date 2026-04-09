@@ -1,16 +1,224 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Show premium label on a locked course card",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Sign in as a non-premium user.",
+        "Open a screen that lists courses.",
+        "Locate a locked course card."
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The locked course card shows that it belongs to the premium plan before the user starts checkout."
+    },
+    {
+      "test_id": "T_manual_2",
+      "requirement_id": "FR1",
+      "scenario": "Show plan status on a locked report feature",
+      "steps": [
+        "Sign in as a non-premium user.",
+        "Open a screen that contains a locked report feature.",
+        "Observe the feature before tapping it."
+      ],
+      "expected_result": "The feature is identified as free or premium before the user attempts to open it."
+    },
+    {
+      "test_id": "T_manual_3",
+      "requirement_id": "FR2",
+      "scenario": "Display price and billing period before purchase confirmation",
+      "steps": [
+        "Open the premium upgrade flow.",
+        "Select one subscription option.",
+        "View the purchase summary screen."
+      ],
+      "expected_result": "The summary screen shows the subscription price and billing period before the user confirms purchase."
+    },
+    {
+      "test_id": "T_manual_4",
+      "requirement_id": "FR2",
+      "scenario": "Display renewal and cancellation information before purchase confirmation",
+      "steps": [
+        "Open the premium upgrade flow.",
+        "Navigate to the purchase summary screen.",
+        "Review the subscription details."
+      ],
+      "expected_result": "The summary screen shows the renewal condition and cancellation channel before the user confirms purchase."
+    },
+    {
+      "test_id": "T_manual_5",
+      "requirement_id": "FR3",
+      "scenario": "Save one reminder time for each check-in period",
+      "steps": [
+        "Open reminder settings.",
+        "Set reminder times for morning, afternoon, and evening.",
+        "Save the settings."
+      ],
+      "expected_result": "The application stores and displays one saved reminder time for each of the three check-in periods."
+    },
+    {
+      "test_id": "T_manual_6",
+      "requirement_id": "FR3",
+      "scenario": "Edit existing reminder times",
+      "steps": [
+        "Open reminder settings with existing saved times.",
+        "Change the reminder time for each period.",
+        "Save the changes."
+      ],
+      "expected_result": "The application displays the updated reminder times for morning, afternoon, and evening."
+    },
+    {
+      "test_id": "T_manual_7",
+      "requirement_id": "FR4",
+      "scenario": "Submit a missed check-in within the allowed window",
+      "steps": [
+        "Miss one scheduled check-in period.",
+        "Open the app within 12 hours after that period closes.",
+        "Select the missed period and submit answers."
+      ],
+      "expected_result": "The application accepts the missed check-in and stores it under the selected period."
+    },
+    {
+      "test_id": "T_manual_8",
+      "requirement_id": "FR4",
+      "scenario": "Block a missed check-in after the allowed window",
+      "steps": [
+        "Miss one scheduled check-in period.",
+        "Wait more than 12 hours after that period closes.",
+        "Open the app and try to submit the missed period."
+      ],
+      "expected_result": "The application does not allow submission for that expired missed check-in period."
+    },
+    {
+      "test_id": "T_manual_9",
+      "requirement_id": "FR5",
+      "scenario": "Generate a report for a 14-day range with saved entries",
+      "steps": [
+        "Save mood entries, symptom answers, and journal entries across 14 days.",
+        "Select that 14-day range.",
+        "Generate the report."
+      ],
+      "expected_result": "The report contains mood trends, symptom trends, and references to journal entries from the selected range."
+    },
+    {
+      "test_id": "T_manual_10",
+      "requirement_id": "FR5",
+      "scenario": "Generate a report for a custom 30-day range",
+      "steps": [
+        "Save entries across at least 30 days.",
+        "Select a custom 30-day date range.",
+        "Generate the report."
+      ],
+      "expected_result": "The report contains mood trends, symptom trends, and references to journal entries for the selected 30-day range."
+    },
+    {
+      "test_id": "T_manual_11",
+      "requirement_id": "FR6",
+      "scenario": "Export a generated report from the report screen",
+      "steps": [
+        "Generate a progress report.",
+        "Open the generated report.",
+        "Choose the export action."
+      ],
+      "expected_result": "The application creates a downloadable file containing the report."
+    },
+    {
+      "test_id": "T_manual_12",
+      "requirement_id": "FR6",
+      "scenario": "Verify exported file contains the selected report range",
+      "steps": [
+        "Generate a report for a known date range.",
+        "Export the report.",
+        "Open the downloaded file."
+      ],
+      "expected_result": "The downloaded file contains the report content for the selected date range."
+    },
+    {
+      "test_id": "T_manual_13",
+      "requirement_id": "FR7",
+      "scenario": "Restore saved data after sign-in on the same device",
+      "steps": [
+        "Create an account with saved entries, reports, and settings.",
+        "Sign out of the account.",
+        "Sign back in on the same device."
+      ],
+      "expected_result": "The saved entries, reports, and settings are visible after sign-in."
+    },
+    {
+      "test_id": "T_manual_14",
+      "requirement_id": "FR7",
+      "scenario": "Restore saved data after sign-in on a second device",
+      "steps": [
+        "Create an account with saved entries, reports, and settings on device A.",
+        "Sign in to the same account on device B.",
+        "Open the account data on device B."
+      ],
+      "expected_result": "Device B shows the saved entries, reports, and settings from the account."
+    },
+    {
+      "test_id": "T_manual_15",
+      "requirement_id": "FR8",
+      "scenario": "Open privacy screen and review current settings",
+      "steps": [
+        "Sign in to the app.",
+        "Open the privacy screen.",
+        "Review the displayed privacy controls."
+      ],
+      "expected_result": "The privacy screen shows the current data-sharing permissions and privacy settings."
+    },
+    {
+      "test_id": "T_manual_16",
+      "requirement_id": "FR8",
+      "scenario": "Change a privacy setting from the privacy screen",
+      "steps": [
+        "Sign in to the app.",
+        "Open the privacy screen.",
+        "Change one data-sharing permission and save."
+      ],
+      "expected_result": "The updated privacy setting is saved and shown on the privacy screen."
+    },
+    {
+      "test_id": "T_manual_17",
+      "requirement_id": "FR9",
+      "scenario": "Create and reuse custom labels in later check-ins",
+      "steps": [
+        "Open a check-in.",
+        "Create one custom emotion label and one custom activity label.",
+        "Save the labels and open a later check-in."
+      ],
+      "expected_result": "The saved custom labels are available for selection in the later check-in."
+    },
+    {
+      "test_id": "T_manual_18",
+      "requirement_id": "FR9",
+      "scenario": "Persist custom labels after app relaunch",
+      "steps": [
+        "Create and save one custom emotion label and one custom activity label.",
+        "Close the application.",
+        "Reopen the app and start a new check-in."
+      ],
+      "expected_result": "The previously saved custom labels are still available in the new check-in."
+    },
+    {
+      "test_id": "T_manual_19",
+      "requirement_id": "FR10",
+      "scenario": "Submit I do not know for a binary question",
+      "steps": [
+        "Open a binary self-assessment question.",
+        "Select the I do not know response.",
+        "Submit the answer."
+      ],
+      "expected_result": "The application accepts and stores the I do not know response."
+    },
+    {
+      "test_id": "T_manual_20",
+      "requirement_id": "FR10",
+      "scenario": "Review a stored I do not know response",
+      "steps": [
+        "Submit I do not know for a binary self-assessment question.",
+        "Open the saved responses for that check-in.",
+        "Review the stored answer."
+      ],
+      "expected_result": "The saved response shows I do not know for that question."
     }
   ]
 }

@@ -1,22 +1,144 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Budget-Conscious Support Seeker",
+      "description": "A user who wants mental health support tools but must understand premium value before paying for access.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Continue mood tracking without unexpected costs",
+        "Understand which features are free and which require premium",
+        "Pay only when the premium benefits are clear"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Core features feel locked after a short trial",
+        "Subscription value is unclear before purchase",
+        "Premium upgrades and refunds can feel risky"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Trying the app during self-help or early therapy exploration",
+        "Comparing MindDoc with lower-cost or free alternatives"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Cannot absorb unexpected charges",
+        "Needs transparent subscription information before purchase"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "4cf4ff8a-3aec-4219-ba79-5cc645cc1b15",
+        "a360c212-f023-438c-991b-a3f28f3dd7ba"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Structured Check-In User",
+      "description": "A user who depends on reminders and consistent daily check-ins to maintain a mood tracking habit.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Receive reminders at workable times",
+        "Complete morning, afternoon, and evening check-ins consistently",
+        "Recover missed check-ins without losing reflections"
+      ],
+      "pain_points": [
+        "Notifications are missing, too frequent, or easy to miss",
+        "Fixed reminder windows do not fit the user's routine",
+        "Entries can be lost when a time window closes"
+      ],
+      "context": [
+        "Balancing the app with work, school, or irregular schedules",
+        "Using short check-ins instead of long journal sessions"
+      ],
+      "constraints": [
+        "Reminder times must match the user's routine",
+        "Missed check-ins should not discard the user's input"
+      ],
+      "evidence_reviews": [
+        "4d818c25-71e6-49f1-8a43-1c7cfd90e226",
+        "b27e65a7-c21c-45a9-962d-5023ce58cc1f"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Therapy-Prepared Journaler",
+      "description": "A user who journals regularly and wants reports that support reflection and clinician conversations.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Track mood and symptom patterns over time",
+        "Review journal history alongside reports",
+        "Share clear progress summaries with a therapist or doctor"
+      ],
+      "pain_points": [
+        "Reports can feel generic or not actionable",
+        "Journal history is hard to review in one place",
+        "Insights do not always support therapy discussions"
+      ],
+      "context": [
+        "Using the app over weeks or months",
+        "Combining MindDoc with therapy, CBT, or self-monitoring"
+      ],
+      "constraints": [
+        "Reports must summarize tracked patterns clearly",
+        "Exported outputs must be usable outside the app"
+      ],
+      "evidence_reviews": [
+        "2830f36f-abe9-4e2c-9b61-35e646925641",
+        "c0ea793a-8df0-4511-ba1e-c5701285be82"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Privacy and Continuity User",
+      "description": "A user storing sensitive mental health history who needs secure access, data continuity, and visible privacy information.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Keep journal history secure",
+        "Recover saved data after sign-in, reinstall, or device change",
+        "Understand how personal data is shared"
+      ],
+      "pain_points": [
+        "The app logs the user out or blocks access to past entries",
+        "Privacy settings and app lock behavior feel unreliable",
+        "Data access can break during login or connectivity issues"
+      ],
+      "context": [
+        "Using the app over long periods with sensitive mental health entries",
+        "Returning to the app after an update, reinstall, or device switch"
+      ],
+      "constraints": [
+        "Historical data must remain available after authentication",
+        "Privacy information must be visible in the app"
+      ],
+      "evidence_reviews": [
+        "eb334c9d-9486-443b-a05e-a32a25d0acdc",
+        "0f7939ee-4dbc-4869-a5e1-ef432e2d5e8c"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Nuanced Mood Tracker",
+      "description": "A user with complex or fluctuating feelings who needs more expressive check-ins than repetitive yes/no prompts.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Describe feelings accurately",
+        "Answer questions honestly when uncertain",
+        "Reuse custom labels across future check-ins"
+      ],
+      "pain_points": [
+        "Yes/no questions are too rigid",
+        "Emotion and activity labels are too limited",
+        "Repetitive prompts reduce engagement over time"
+      ],
+      "context": [
+        "Logging multiple emotional states during the day",
+        "Using the app for ongoing self-reflection rather than only screening"
+      ],
+      "constraints": [
+        "Needs customizable labels for recurring feelings and situations",
+        "Needs a non-binary response option for uncertain answers"
+      ],
+      "evidence_reviews": [
+        "789380fe-7afd-4542-bb2d-c1f16e086966",
+        "1524e480-63be-46fd-82d2-022163d80b0b"
+      ]
+    }
+  ]
+}

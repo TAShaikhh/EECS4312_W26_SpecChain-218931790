@@ -2,11 +2,128 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Cost-sensitive users blocked by paywalls and unclear premium value",
+      "review_ids": [
+        "4cf4ff8a-3aec-4219-ba79-5cc645cc1b15",
+        "c61692d1-a80d-49e1-b541-8b37b2d3f7aa",
+        "a360c212-f023-438c-991b-a3f28f3dd7ba",
+        "a01eb69d-877f-4ec3-8ada-e94608e0f2fd",
+        "81c6e690-0ce4-4d0f-acf6-e2678939e1aa",
+        "3d61709a-0872-45b0-a4d8-27d8db423c5a",
+        "baa41bfa-899c-4722-b6df-e4d2e60d1e9a",
+        "39ef38ce-b7ed-4ad1-b391-98344d8e366d",
+        "affef279-7511-46e8-b4e4-8f9cc6da0a2b",
+        "f1c683f8-e041-444a-a0de-03c9c64e352f",
+        "abe48d35-6cad-40f8-b5d9-a176ee371a4e",
+        "127697e6-f034-4457-9faf-291c590672d2",
+        "f7f92b4a-fa1c-406e-a550-7ffad9f8b678",
+        "fad46f60-a4fe-45ed-8e73-515e505a9cf5",
+        "2d3c531a-1b2f-4235-a3f0-3d63a4366302"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "Everything but the introduction is paywalled. I do not need an app to notice what affects mood. Downloaded for the mental health resources, but will use something that offers a chance to text the benefits before charging.",
+        "Puts results behind a paywall after using for 14 days, thus making it useless."
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Routine-based users who depend on reminders and flexible check-in timing",
+      "review_ids": [
+        "4d818c25-71e6-49f1-8a43-1c7cfd90e226",
+        "8ed59960-bd0f-4d5f-b05b-fb11e2934a77",
+        "14c39003-c870-4a30-b49d-c2c519b76528",
+        "94c72d45-0229-46e3-97a8-7220b6e138b4",
+        "de3fad29-000b-43fd-b6d6-fb14845f1128",
+        "db7ae432-6ed4-4245-8d79-098f4b49f2a4",
+        "9f647e59-599a-4a00-a893-7a037aaea27b",
+        "4e0cc660-cfd3-4a61-8c6b-be077f0ce22b",
+        "5eb82c4a-34d9-4ee6-bb48-2bc98f5dcc20",
+        "f76b46c8-8a45-4ae2-b487-159f1ba986c1",
+        "fa1bb6f0-2a44-48e2-9424-7363ea83ca9e",
+        "5bd0752c-476f-4140-b83c-67b54135a91b",
+        "3ea0b7a3-7e96-4f95-8d39-bb77ffaf10b3",
+        "a0754d91-6af4-45bb-a21a-f3ecaf3bfd63",
+        "b27e65a7-c21c-45a9-962d-5023ce58cc1f"
+      ],
+      "example_reviews": [
+        "not getting notifications to answer the questions",
+        "Needs more flexibility in timing. User should decide morning, afternoon, evening hours. Entries outside the prescribed times may be entirely lost, as in not recorded."
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Therapy-oriented journalers who need useful reports and shareable progress summaries",
+      "review_ids": [
+        "b7e23fb5-2b6e-4cf8-bd4c-0ec67b273a1a",
+        "90970984-6996-464e-a369-75b868574eeb",
+        "e60d4e5f-6da4-4eac-bb34-99fbe43618cd",
+        "b885515f-9486-4465-85ed-ffcc9288dfc1",
+        "6442b31e-28a8-4a1b-9a5a-62e28c190214",
+        "19015b2c-8357-44ff-85e3-92557e9c9b71",
+        "89ca287c-be9b-4479-af11-cf8d481bbaee",
+        "25e1069e-2905-47fb-8d00-5cc045365193",
+        "1e25c5dd-dace-4d8d-a7fc-ff72134c508c",
+        "c0ea793a-8df0-4511-ba1e-c5701285be82",
+        "2830f36f-abe9-4e2c-9b61-35e646925641",
+        "a0cc751b-bab3-47f1-bc59-b8d182f899a0",
+        "eebcf880-2d59-4757-a3e5-c3f624104c13",
+        "89f06fea-60e3-4660-9476-b942cf70901a",
+        "8ee41069-7920-4ef7-bee9-9ccddb7b44d3"
+      ],
+      "example_reviews": [
+        "I've been using this app since 2018. You answer a few questions 3 times per day for 2 weeks, and at the end it gives you a printable report. It's been very helpful to track my emotional state and report to my mental health team.",
+        "The ability to visually track my symptoms has helped give me more objective insight into my depression and facilitated work during CBT sessions."
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Privacy- and continuity-focused users who need secure access to historical data",
+      "review_ids": [
+        "b69f4ef9-7d53-4e38-817e-9e506d787b03",
+        "8d328b9d-9b41-4bfc-a52f-24f5ac10f6b1",
+        "fbdbce6a-fe56-4273-a957-af833fce24a7",
+        "eb334c9d-9486-443b-a05e-a32a25d0acdc",
+        "aa5a16d6-caa8-4b04-9604-9addd440a240",
+        "0f7939ee-4dbc-4869-a5e1-ef432e2d5e8c",
+        "d862ae67-c1c7-46fd-a741-e15c54c57d22",
+        "eed52471-2e35-4b41-83ca-061107111325",
+        "b0585e2b-d036-484b-a416-42d89d21e654",
+        "2f2b0683-fab9-4b80-8561-97589694294c",
+        "4be86586-ee16-4fd0-b00a-912def052067",
+        "dd1c62d6-211a-4370-a93b-9ec00df98974",
+        "4a9b3a17-d2ae-4252-b2f9-91e05373a33c",
+        "1203993a-3f40-4a51-bba5-ea661049b9c3",
+        "f01064c3-4ce8-451a-9ff7-3e4da9bbd27a"
+      ],
+      "example_reviews": [
+        "These days the app often logs me out and disables the app lock. I would like to keep my data safe and I'm beginning to lose trust in this app.",
+        "Used to be good. Now you cant access your own past data. Great. 3 years down the drain."
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Users who want more expressive mood logging and less repetitive questions",
+      "review_ids": [
+        "789380fe-7afd-4542-bb2d-c1f16e086966",
+        "d955cbba-eea1-41df-918e-0282d3af76ed",
+        "bbe680a1-bdde-4a3f-9908-db49aa9365c7",
+        "ef1ea885-2462-4a65-bcd2-7d78bf4a9271",
+        "0cf982a1-c1f7-4ad3-9b7f-558fb4987078",
+        "5732aec3-63d5-4285-86b4-19734616e2d4",
+        "8b98aa99-c3e9-4117-8926-61d90932fb82",
+        "171d1d75-c17d-4f7a-b617-c14f12e87e36",
+        "122f624f-87e4-43e7-9819-3afffd77e2d6",
+        "357d592d-4cb3-4fa7-8812-0c58b14fd222",
+        "fef793a9-7772-411a-b805-413767fcb474",
+        "1411899d-c2f9-4b2a-9c7d-00b55c377df1",
+        "499ee505-b57f-458f-a54c-14d7572c8d31",
+        "1524e480-63be-46fd-82d2-022163d80b0b",
+        "dae39647-c179-4f3e-9205-1c7f69cb0b6d"
+      ],
+      "example_reviews": [
+        "The question: Do you feel sad or down? Needs a third answer, like: I don't know how I feel.",
+        "The emotions that are available are rubbish and you cant add your own. Asks repetitive questions and no room for gray area."
       ]
     }
-  ]}
+  ]
+}
