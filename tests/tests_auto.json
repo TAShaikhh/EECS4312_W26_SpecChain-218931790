@@ -1,15 +1,116 @@
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
-      "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "test_id": "AT1",
+      "requirement_id": "AR1",
+      "scenario": "User accesses free version of MindDoc",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Launch the MindDoc application",
+        "Verify the user is presented with an option to use the free version"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The user can access the free version without being prompted for payment information"
+    },
+    {
+      "test_id": "AT2",
+      "requirement_id": "AR2",
+      "scenario": "User provides initial information",
+      "steps": [
+        "Launch the MindDoc application",
+        "Complete the initial user information survey",
+        "Verify that the system does not ask repetitive questions"
+      ],
+      "expected_result": "The system minimizes repetitive questions when gathering user information"
+    },
+    {
+      "test_id": "AT3",
+      "requirement_id": "AR3",
+      "scenario": "User tracks emotions over time",
+      "steps": [
+        "Launch the MindDoc application",
+        "Record the user's current emotions",
+        "Return to the emotions tracking section after some time",
+        "Verify that previous emotions records are displayed"
+      ],
+      "expected_result": "The user can view their tracked emotions over time"
+    },
+    {
+      "test_id": "AT4",
+      "requirement_id": "AR4",
+      "scenario": "User views weekly progress",
+      "steps": [
+        "Launch the MindDoc application",
+        "Navigate to the insights or progress section",
+        "Verify that weekly progress information is displayed"
+      ],
+      "expected_result": "The user can view insights into their weekly progress"
+    },
+    {
+      "test_id": "AT5",
+      "requirement_id": "AR5",
+      "scenario": "MoodMonitor records mood at multiple points",
+      "steps": [
+        "Launch the MindDoc application",
+        "Record the user's current mood",
+        "Return to the mood tracking section after some time",
+        "Record the user's mood again"
+      ],
+      "expected_result": "The MoodMonitor can record their mood at multiple points in time"
+    },
+    {
+      "test_id": "AT6",
+      "requirement_id": "AR6",
+      "scenario": "MoodMonitor views mood over time",
+      "steps": [
+        "Launch the MindDoc application",
+        "Navigate to the mood tracking section",
+        "Verify that previous mood records are displayed"
+      ],
+      "expected_result": "The MoodMonitor can view their mood over time"
+    },
+    {
+      "test_id": "AT7",
+      "requirement_id": "AR7",
+      "scenario": "Emiliana records and reflects on emotions",
+      "steps": [
+        "Launch the MindDoc application",
+        "Record Emiliana's current emotions",
+        "Reflect on the recorded emotions"
+      ],
+      "expected_result": "Emiliana can record and reflect on her emotions"
+    },
+    {
+      "test_id": "AT8",
+      "requirement_id": "AR8",
+      "scenario": "Emiliana receives emotional support content",
+      "steps": [
+        "Launch the MindDoc application",
+        "Navigate to the support or resources section",
+        "Verify that emotional support content is available"
+      ],
+      "expected_result": "Emiliana can access emotional support content"
+    },
+    {
+      "test_id": "AT9",
+      "requirement_id": "AR9",
+      "scenario": "User tracks mental health status",
+      "steps": [
+        "Launch the MindDoc application",
+        "Record the user's current mental health status",
+        "Return to the mental health tracking section after some time",
+        "Verify that previous mental health records are displayed"
+      ],
+      "expected_result": "The user can track their mental health status over time"
+    },
+    {
+      "test_id": "AT10",
+      "requirement_id": "AR10",
+      "scenario": "User accesses mental health resources",
+      "steps": [
+        "Launch the MindDoc application",
+        "Navigate to the resources or support section",
+        "Verify that mental health resources are available"
+      ],
+      "expected_result": "The user can access resources for mental health support"
     }
   ]
 }

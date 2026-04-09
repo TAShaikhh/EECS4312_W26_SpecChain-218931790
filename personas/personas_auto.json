@@ -1,0 +1,143 @@
+{
+  "personas": [
+    {
+      "id": "AP1",
+      "name": "Mental Health Support User",
+      "description": "A person seeking to manage their mental health and mood through self-tracking and insights.",
+      "derived_from_group": "A1",
+      "goals": [
+        "Understand and manage my emotions",
+        "Track my mood and feelings",
+        "Get helpful insights and advice"
+      ],
+      "pain_points": [
+        "Limited free features",
+        "Repetitive questions",
+        "Financial constraints for premium features"
+      ],
+      "context": [
+        "Daily life",
+        "Mental health struggles"
+      ],
+      "constraints": [
+        "May not have financial resources for premium features",
+        "May be struggling with mental health issues"
+      ],
+      "evidence_reviews": [
+        "827a274a-03d1-4c43-bcf7-683b7227a74a",
+        "0e4c4a6a-57ec-4c93-8004-676296473008",
+        "bf0de868-fce9-4086-8619-58841b8b9d57"
+      ]
+    },
+    {
+      "id": "AP2",
+      "name": "Mindful Maven",
+      "description": "A self-aware individual seeking to monitor and improve their mental well-being through a helpful app.",
+      "derived_from_group": "A2",
+      "goals": [
+        "Track emotions and mental state",
+        "Gain insights into weekly progress",
+        "Find a helpful resource for mental health"
+      ],
+      "pain_points": [
+        "Difficulty finding an effective mental health app",
+        "Limited exploration of emotions through app questions"
+      ],
+      "context": [
+        "Daily life",
+        "Mental health management"
+      ],
+      "constraints": [
+        "Seeking a simple, user-friendly app"
+      ],
+      "evidence_reviews": [
+        "14fdc352-1902-4f3b-8997-41d1983582b5",
+        "ecaea8c5-c144-4436-a682-ecf534c36782",
+        "b7910561-7d84-402a-a694-255dee1b6415"
+      ]
+    },
+    {
+      "id": "AP3",
+      "name": "MoodMonitor",
+      "description": "I want to understand and manage my emotions better.",
+      "derived_from_group": "A3",
+      "goals": [
+        "Track my mood over time",
+        "Understand my emotions",
+        "Reflect on my mental state"
+      ],
+      "pain_points": [
+        "Difficulty understanding my emotions",
+        "Trouble keeping track of my mood"
+      ],
+      "context": [
+        "Daily life",
+        "Personal mental health"
+      ],
+      "constraints": [
+        "Needs to be easy to use"
+      ],
+      "evidence_reviews": [
+        "c67e2745-b74b-4993-b542-ceaecd5caf78",
+        "59dc1647-4b60-4cc4-b9e7-5fdd8c339d17",
+        "f2428143-7b9c-449b-ac5e-8838c058cca7"
+      ]
+    },
+    {
+      "id": "AP4",
+      "name": "Emiliana",
+      "description": "A person seeking emotional support and validation through a mental wellness app",
+      "derived_from_group": "A4",
+      "goals": [
+        "Find emotional support",
+        "Understand feelings",
+        "Feel cared for"
+      ],
+      "pain_points": [
+        "Feeling alone",
+        "Difficulty articulating emotions"
+      ],
+      "context": [
+        "Personal struggles",
+        "Mental wellness"
+      ],
+      "constraints": [
+        "Seeking a supportive tool"
+      ],
+      "evidence_reviews": [
+        "a1aa53e2-38a5-44ea-bc5e-1a4b56586abd",
+        "e55a0a6d-61a0-4df6-a05e-7e4e31491957",
+        "afa5ffbc-d928-40f0-8796-961637bf6af9"
+      ]
+    },
+    {
+      "id": "AP5",
+      "name": "Mental Health Tracking and Support User",
+      "description": "A person seeking to understand and manage their mental health through self-tracking and support.",
+      "derived_from_group": "A5",
+      "goals": [
+        "Monitor and improve mental health",
+        "Understand mental state",
+        "Get support for mental health issues"
+      ],
+      "pain_points": [
+        "Struggling with mental health issues",
+        "Difficulty finding supportive resources",
+        "Unaware of mental health status"
+      ],
+      "context": [
+        "Daily life",
+        "Mental health struggles"
+      ],
+      "constraints": [
+        "Seeking a simple and easy-to-use app",
+        "Looking for a supportive tool"
+      ],
+      "evidence_reviews": [
+        "2b82cf29-45bf-4abb-848c-1273e3fed223",
+        "5d1a2884-0906-41dd-afa9-1fb1bb701b61",
+        "b37e45f3-e3d4-41a1-91ba-79df4632011f"
+      ]
+    }
+  ]
+}
